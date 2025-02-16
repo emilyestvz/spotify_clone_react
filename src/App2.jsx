@@ -3,15 +3,15 @@ import React from 'react'
 
 const App2 = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    </>
   )
 }
 
 export default App2
 
 // rfce
+// rafce
 
 // Arrow Function
 //const App3 = () => <div></div>
@@ -36,8 +36,35 @@ export default App2
 // bloco__elemento
 // bloco__elemento--modificador
 // item-list__header
-//  Nomes compostosos são separados por -
+// Nomes compostosos são separados por -
 
 //  Tag vazia em React se chama Fragment ou Fragmento <></>
 
 // Componentes recebem "props": parâmetros
+
+// {items === 5 ? 
+//   <>
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   </> : 
+//   <>
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   <SingleItems />
+//   </>}
+
+      // {Array(items)
+      //   .fill()
+      //   .map((currentValue, index) => (
+      //   <SingleItems key= {`${title}-${index}`} />
+      // ))}

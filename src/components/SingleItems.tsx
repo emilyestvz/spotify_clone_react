@@ -24,7 +24,7 @@ const SingleItems = () => {
                 </div>
             </div>
         </div>
-  )
-}
+  );
+};
 
-export default SingleItems
+export default SingleItems;
