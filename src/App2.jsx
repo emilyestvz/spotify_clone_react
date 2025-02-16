@@ -8,7 +8,9 @@ const App2 = () => {
   )
 }
 
-export default App2
+export default App2;
+
+// COMENTÁRIOS PARA LEMBRETES
 
 // rfce
 // rafce
@@ -68,3 +70,5 @@ export default App2
       //   .map((currentValue, index) => (
       //   <SingleItems key= {`${title}-${index}`} />
       // ))}
+
+// Spread operator ... 
